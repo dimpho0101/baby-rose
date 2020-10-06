@@ -1,0 +1,97 @@
+html, body, .block1, .block2, .block3{
+    /* background-color: black; */
+    height: 100%;
+}
+
+.pin-top {
+    position: relative;
+  }
+  
+  .pin-bottom {
+    position: relative;
+  }
+  
+  .pinned {
+    position: fixed !important;
+  }
+
+  .block1{
+    background-image: url("../images/DSC06119-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+ 
+  }
+
+  .block2{
+    background-image: url("../images/https___hypebeast.com_image_2019_06_baby-rose-mortal-music-video-00.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+ 
+  }
+
+  .block3{
+    background-image: url("../images/xBabyR7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+ 
+  }
+
+.center-nav{
+  display:flex; justify-content:center;
+}
+
+.artist{
+  padding: 20px;
+}
+
+.h3{
+  top: 15%;
+}
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-repeat: no-repeat;
+      background-size: 100vh 100vh;
+    }
+  }
+
+
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content {
+    position: fixed;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    background-color: transparent !important;
+    /* padding: 40px; */
+  }
+
+  .contact-nav {
+ 
+    background: transparent;
+    border-color: transparent !important;
+    border: none;
+    border-bottom-style: none;
+ }
+ 
+ .nav-wrapper li { color: #000 } 
+
+
+ input + label:before {
+  content: '\A';
+  white-space: pre;
+}
+ 
